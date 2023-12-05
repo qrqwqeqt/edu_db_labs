@@ -3,7 +3,8 @@
 В рамках проекту розробляється: 
 - модель бізнес-об'єктів 
 - ER-модель
-- @startuml  
+
+@startuml  
 entity User <<ENTITY>>{ 
 User.id:NUMBER 
 User.username:TEXT 
