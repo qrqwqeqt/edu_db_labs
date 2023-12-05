@@ -3,7 +3,6 @@
 В рамках проекту розробляється: 
 - модель бізнес-об'єктів 
 - ER-модель
-
 @startuml  
 entity User <<ENTITY>>{ 
 User.id:NUMBER 
@@ -50,6 +49,8 @@ Access"0,*" -- "1,1"Datafile
 Datafile"1,1" -- "0,*"Link 
 Link"0,*" -- "1,1"Tag 
 @enduml
+
+
 
 - реляційна схема
 
