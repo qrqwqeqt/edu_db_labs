@@ -2,6 +2,7 @@
 
 В рамках проекту розробляється: 
 - SQL-скрипт для створення на початкового наповнення бази даних
+```SQL
 CREATE TABLE IF NOT EXISTS lab4.ADMINISTRATOR (
   idADMINISTRATOR INT UNSIGNED NOT NULL,
   adm_delate TINYINT NULL,
@@ -60,3 +61,4 @@ SET SQL_MODE=@OLD_SQL_MODE;
 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS;
 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS;
 - RESTfull сервіс для управління даними
+```
