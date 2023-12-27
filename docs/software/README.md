@@ -179,7 +179,7 @@ SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS;
 # RESTfull сервіс для управління даними
 
 ## Початковий файл программи 
-```
+```js
 const express = require("express");
 const cors = require("cors");
 const router = require("./routes");
@@ -206,7 +206,7 @@ module.exports = app;
 ```
 
 ## Встановлення доступу до нашої бази данних
-```
+```js
 const mysql = require("mysql2");
 const conn = mysql.createConnection({
     host: "localhost",
@@ -221,7 +221,7 @@ module.exports = conn;
 ```
 
 ## Контроллер
-```
+```js
 const AppError = require("../utils/appError");
 const conn = require("../services/db");
 
@@ -321,7 +321,7 @@ exports.deleteFile = (req, res, next) => {
 ```
 
 ## Маршут
-```
+```js
 const express = require("express");
 const controllers = require("../controllers");
 const router = express.Router();
