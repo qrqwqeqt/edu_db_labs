@@ -220,7 +220,7 @@ conn.connect();
 module.exports = conn;
 ```
 
-## Маршут
+## Контроллер
 ```
 const AppError = require("../utils/appError");
 const conn = require("../services/db");
