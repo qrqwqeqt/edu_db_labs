@@ -1,9 +1,9 @@
 # Проєктування бази даних
 
 В рамках проекту розробляється: 
-- модель бізнес-об'єктів
+модель бізнес-об'єктів
 
-- @startuml
+@startuml
 entity User <<ENTITY>> #CCFFFF
 entity User.id <<NUMBER>> #FFFFFF
 entity User.username <<TEXT>> #FFFFFF
@@ -67,7 +67,7 @@ Link "0,*"-r-"1,1" Tag
 
 @enduml
 
-- ER-модель
+ER-модель
 
 
 @startuml  
@@ -116,10 +116,6 @@ Access"0,*" -- "1,1"Datafile
 Datafile"1,1" -- "0,*"Link 
 Link"0,*" -- "1,1"Tag 
 @enduml
-
-
-=======
-
 
 - реляційна схема
 
