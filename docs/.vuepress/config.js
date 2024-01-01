@@ -15,7 +15,7 @@ module.exports = {
     }]
   ],
   port: 3030,
-  base: '/edu_db_labs/',
+  base: 'C:/users/user/Documents/GitHub/edu_db_labs/',
   theme: 'cool',
   // dest: 'dist',
   head: [
